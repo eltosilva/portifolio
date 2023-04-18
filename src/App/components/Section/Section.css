@@ -1,0 +1,23 @@
+.section-trigger {
+  float: left;
+  visibility: collapse;
+  z-index: -99;
+}
+
+.section-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.section-body {
+  visibility: collapse;
+  height: 0;
+}
+
+.section-trigger:checked ~ .section-body {
+  visibility: visible;
+  height: auto;
+}

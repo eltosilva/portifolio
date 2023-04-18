@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "name": "Elto Oliveira da Silva",
+    "photo": "photo",
+    "job": "Desenvolvedor Fullstack Jr",
+    "location": "Parauapebas - PA",
+    "phone": "(94) 99219-3131",
+    "email": "petran.elto@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Java",
+          "logo": "java"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "javascript"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "typescript"
+        },
+        {
+          "name": "Docker",
+          "logo": "docker"
+        },
+        {
+          "name": "CSS",
+          "logo": "css3"
+        },
+        {
+          "name": "HTML",
+          "logo": "html5"
+        },
+        {
+          "name": "Spring Boot",
+          "logo": "springBoot"
+        },
+        {
+          "name": "Quarkus",
+          "logo": "quarkus"
+        },
+        {
+          "name": "Angular",
+          "logo": "angular"
+        },
+        {
+          "name": "ReactJs",
+          "logo": "react"
+        },
+        {
+          "name": "MySQL",
+          "logo": "mysql"
+        },
+        {
+          "name": "GitHub",
+          "logo": "github"
+        },
+        {
+          "name": "Sass",
+          "logo": "sass"
+        }
+      ],
+      "softSkills": [
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (intermediário)"
+    ],
+    "portfolio": [
+      {
+        "name": "Menu com HTML e CSS",
+        "url": "https://github.com/eltosilva/menu-css"
+      },
+      {
+        "name": "Jogo da Memória",
+        "url": "https://github.com/eltosilva/jogo-memoria"
+      }
+    ],
+    "experiences": [
+      {
+        "name": "Caixa Bancário",
+        "period": "abril de 2022 - até o momento",
+        "description": "Atendimento de clientes no processamento de contas e transações financeiras, vendas de produtos bancários e serviços, depósitos e transações financeiras"
+      },
+      {
+        "name": "Assessor de TI",
+        "period": "mai de 2021 - mar de 2022",
+        "description": "Desenvolvimento de aplicações de front-end para ambiente web, utilizando AngularJs"
+      },
+      {
+        "name": "Caixa Bancário",
+        "period": "jun de 2010 - abr de 2021",
+        "description": "Atendimento de clientes no processamento de contas e transações financeiras, vendas de produtos bancários e serviços, depósitos e transações financeiras"
+      }
+    ]
+  }
+}

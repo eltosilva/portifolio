@@ -1,0 +1,15 @@
+.header-profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left img {
+  width: 30%;
+  border-radius: 50%;
+}
