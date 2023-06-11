@@ -1,9 +1,8 @@
-const { default: App } = require('./App/App')
-const { default: HttpClient } = require('./App/services/HttpClient')
+import App from './App/App'
+import HttpClient from './App/services/HttpClient'
 
 const container = document.querySelector('#app')
 
-
-HttpClient.get('profile')
+HttpClient.get(_ENV.url)
   .then(profile => new App(profile, container).render())
   .catch(console.error)

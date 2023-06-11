@@ -4,7 +4,9 @@ export default class HttpClient {
     try {
       let dados = await fetch(url)
 
-      return dados.json()
+      let json =  await dados.json()
+
+      return json.profile ? json.profile : json
 
     } catch (exception) {
       throw exception
